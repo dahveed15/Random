@@ -1,0 +1,12 @@
+.weather-background {
+  background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/U4GOIU-/sunny-day-white-sky-4k-time-lapse_ekyxov3___S0000.jpg');
+  background-size: cover;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: 'Cardo', serif;
+}

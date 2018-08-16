@@ -1,0 +1,25 @@
+.math-background {
+  background-image: url('https://cdn.brainpop.com/math/practicalmath/icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+  /* background-size: cover; */
+}
+
+.math-hyperlink {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-family: 'Cardo', serif;
+}
+
+.newton-input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.math-result {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Cardo', serif;
+}

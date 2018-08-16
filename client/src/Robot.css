@@ -1,0 +1,35 @@
+.robo-background {
+  background-image: url('https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/images/2017/09/robots_looking_at_each_other_small.jpg?itok=tFfdPTg6&fc=50,50');
+}
+
+.inner-robot-div {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: 'Cardo', serif;
+}
+
+.robo-input {
+  border-radius: 3px;
+  height: 20px;
+}
+
+.robo-btn {
+  padding: 10px 7px;
+  border-radius: 5px;
+  background-color: #b8b8b8;
+}
+
+.robot-title {
+  text-align: center;
+}
+
+.robot-btns {
+  border: 2px solid red;
+}
+
+.center-robot-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Robot.css';
 
 class RoboHash extends Component {
   constructor(props) {
@@ -36,21 +37,31 @@ class RoboHash extends Component {
     let text = `https://robohash.org/${this.state.roboHash}.png`;
 
     if (this.state.roboInfo === this.state.roboHash) {
-      robot = <img src={text} />;
+      robot = <img className="center-robot-image" src={text} />;
     }
 
     return (
-      <div>
-        <label>
-          Enter some text
+      <div className="robo-background">
+        <div className="inner-robot-div">Robot Fun</div>
+        <div className="inner-robot-div">
           <input
+            className="robo-input"
             type="text"
             value={this.state.roboInfo}
             onChange={this.update()}
+            placeholder="Enter some text"
           />
-        </label>
-        <button onClick={this.handleClick}>Create a Robot!</button>
-        <button onClick={this.reset}>Reset</button>
+        </div>
+        <div className="inner-robot-div">
+          <div>
+            <button className="robo-btn" onClick={this.handleClick}>
+              Create a Robot!
+            </button>
+            <button className="robo-btn" onClick={this.reset}>
+              Reset
+            </button>
+          </div>
+        </div>
         <div />
         {robot}
       </div>

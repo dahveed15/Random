@@ -1,0 +1,13 @@
+.app-div {
+  display: flex;
+  justify-content: center;
+  background-image: url('https://static1.clutch.co/sites/default/files/logos/nimbly_green_logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #cccc00;
+}
+
+.app-text {
+  font-size: 40px;
+}
